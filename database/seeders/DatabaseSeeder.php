@@ -13,14 +13,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory()->create([
-        //     'name' => 'apiuser',
-        //     'email' => 'apiuser@iaknpky.ac.id',
-        //     'password' => bcrypt('123'),
-        // ]);
+        User::factory()->create([
+            'name' => 'apiuser',
+            'email' => 'apiuser@iaknpky.ac.id',
+            'password' => bcrypt('123'),
+        ]);
 
-        // $this->call([
-        //     EmployeeSeeder::class
-        // ]);
+        $this->call([
+            EmployeeSeeder::class
+        ]);
     }
 }

@@ -4608,5 +4608,39 @@ class EmployeeSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ]);
         }
+        foreach ($this->employees as $employee) {
+            DB::table('employees')->insert([
+                'nik' => $employee[1],
+                'nip' => $employee[2],
+                'nidn' => $employee[3],
+                'nuptk' => $employee[4],
+                'nama_lengkap' => $employee[5],
+                'gender' => $employee[6],
+                'birth_place' => $employee[7],
+                'birth_date' => Carbon::parse($employee[8])->format('Y-m-d'),
+                'address' => $employee[9],
+                'district' => $employee[10],
+                'city' => $employee[11],
+                'province' => $employee[12],
+                'employee_status' => $employee[13],
+                'religion' => $employee[14],
+                'mobile_num' => $employee[15],
+                'status_pernikahan' => 'Data Tidak Diketahui',
+                'status_sertifikasi' => (bool)$employee[17],
+                'nominal_sertifikasi_yg_diterima' => 0,
+                'status_remonerasi' => FALSE,
+                'nominal_remonerasi' => 0,
+                'status_tukin' => TRUE,
+                'nominal_tukin' => 0,
+                'status_selkin' => FALSE,
+                'nominal_selkin' => 0,
+                'statistic_num' => '',
+                'nama_institusi' => $employee[26],
+                'institution_category' => $employee[27],
+                'tgl_data' => Carbon::now()->addMonthNoOverflow()->startOfMonth(),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ]);
+        }
     }
 }
