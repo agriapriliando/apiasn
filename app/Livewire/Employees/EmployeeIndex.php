@@ -62,6 +62,7 @@ class EmployeeIndex extends Component
 
     public function duplicateToAnotherMonth()
     {
+        dd("AAAA");
         $sourceEmployees = Employee::whereMonth('tgl_data', $this->bln_data)
             ->whereYear('tgl_data', $this->thn_data)
             ->get();

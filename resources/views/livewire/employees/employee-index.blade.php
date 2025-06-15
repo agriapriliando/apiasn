@@ -26,9 +26,13 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-auto">
-                            <button wire:loading.attr="disabled" wire:click="hapusDataBulan" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus semua data bulan ini?')">
-                                Hapus Data Bulan Ini
+                        <div class="col-auto" x-data="{ show: false }">
+                            <div x-show="!show" class="btn btn-sm btn-danger" @click="show = !show">Hapus Data Bulan Ini</div>
+                            <button @click.outside="show = false" x-show="show" wire:click="hapusDataBulan" class="btn btn-sm btn-danger">
+                                Ya Hapus
+                            </button>
+                            <button @click.outside="show = false" x-show="show" x-on:click="show = false" class="btn btn-sm btn-secondary">
+                                Batal
                             </button>
                         </div>
                     </div>
@@ -53,9 +57,25 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-auto">
-                            <button wire:click="duplicateToAnotherMonth" class="btn btn-primary" wire:loading.attr="disabled">Duplikat</button>
+                        <div class="col-auto" x-data="{ show: false }">
+                            <!-- Tombol awal -->
+                            <button type="button" class="btn btn-sm btn-primary" @click="show = true" x-show="!show">
+                                Duplikat Data
+                            </button>
+
+                            <!-- Konfirmasi -->
+                            <div x-show="show" @click.outside="show = false" class="mt-2 d-flex gap-2">
+                                <!-- Tombol konfirmasi duplikat -->
+                                <button type="button" wire:click="duplicateToAnotherMonth" class="btn btn-sm btn-danger" wire:loading.attr="disabled">
+                                    Ya, Duplikat
+                                </button>
+                                <!-- Tombol batal -->
+                                <button type="button" class="btn btn-sm btn-secondary" @click="show = false">
+                                    Batal
+                                </button>
+                            </div>
                         </div>
+
                     </div>
 
                     @if (session()->has('message'))
