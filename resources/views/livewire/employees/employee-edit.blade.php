@@ -215,8 +215,8 @@
                                     <label class="input-group-text" for="status_sertifikasi">Sertifikasi</label>
                                     <select name="status_sertifikasi" class="form-select" id="status_sertifikasi" wire:model.live="status_sertifikasi">
                                         <option value="">== Pilih ==</option>
-                                        <option value="1">Sudah</option>
-                                        <option value="0">Belum</option>
+                                        <option value="1">Ya</option>
+                                        <option value="0">Tidak</option>
                                     </select>
                                 </div>
                                 @error('status_sertifikasi')
@@ -243,8 +243,8 @@
                                     <select name="status_remonerasi" class="form-select @error('status_remonerasi') is-invalid @enderror" id="status_remonerasi"
                                         wire:model.live="status_remonerasi">
                                         <option value="">== Pilih ==</option>
-                                        <option value="1">Sudah</option>
-                                        <option value="0">Belum</option>
+                                        <option value="1">Ya</option>
+                                        <option value="0">Tidak</option>
                                     </select>
                                 </div>
                                 @error('status_remonerasi')
@@ -269,8 +269,8 @@
                                     <label class="input-group-text" for="status_tukin">Status Tukin</label>
                                     <select name="status_tukin" class="form-select @error('status_tukin') is-invalid @enderror" id="status_tukin" wire:model.live="status_tukin">
                                         <option value="">== Pilih ==</option>
-                                        <option value="1">Sudah</option>
-                                        <option value="0">Belum</option>
+                                        <option value="1">Ya</option>
+                                        <option value="0">Tidak</option>
                                     </select>
                                 </div>
                                 @error('status_tukin')
@@ -296,8 +296,8 @@
                                     <label class="input-group-text" for="status_selkin">Selisih Tukin</label>
                                     <select name="status_selkin" class="form-select" id="status_selkin" wire:model.live="status_selkin">
                                         <option value="">== Pilih ==</option>
-                                        <option value="1">Sudah</option>
-                                        <option value="2">Belum</option>
+                                        <option value="1">Ya</option>
+                                        <option value="0">Tidak</option>
                                     </select>
                                 </div>
                                 @error('status_selkin')
