@@ -13,7 +13,7 @@ class EmployeeEdit extends Component
     public $address, $district, $city, $province, $employee_status, $religion, $mobile_num;
     public $status_pernikahan, $status_sertifikasi, $nominal_sertifikasi_yg_diterima;
     public $status_remonerasi, $nominal_remonerasi, $status_tukin, $nominal_tukin;
-    public $status_selkin, $nominal_selkin, $statistic_num, $institution_category;
+    public $status_selkin, $nominal_selkin, $statistic_num, $nama_institusi, $institution_category;
 
     public function mount($id)
     {
@@ -44,11 +44,13 @@ class EmployeeEdit extends Component
         $this->status_selkin = $this->employee->status_selkin;
         $this->nominal_selkin = $this->employee->nominal_selkin;
         $this->statistic_num = $this->employee->statistic_num;
+        $this->nama_institusi = $this->employee->nama_institusi;
         $this->institution_category = $this->employee->institution_category;
     }
 
     public function update()
     {
+        // dd($this->employee);
         $this->validate([
             'nik' => 'required',
             'nip' => 'required',
@@ -57,7 +59,7 @@ class EmployeeEdit extends Component
             'birth_place' => 'required',
             'birth_date' => 'required|date',
             'address' => 'required',
-            'district' => 'required',
+            'district' => '',
             'city' => 'required',
             'province' => 'required',
             'employee_status' => 'required',
@@ -72,8 +74,7 @@ class EmployeeEdit extends Component
             'nominal_tukin' => 'nullable|numeric',
             'status_selkin' => 'required',
             'nominal_selkin' => 'nullable|numeric',
-            'statistic_num' => 'required',
-            'institution_category' => 'required',
+            'statistic_num' => '',
         ]);
 
         $this->employee->update([
@@ -93,16 +94,15 @@ class EmployeeEdit extends Component
             'religion' => $this->religion,
             'mobile_num' => $this->mobile_num,
             'status_pernikahan' => $this->status_pernikahan,
-            'status_sertifikasi' => $this->status_sertifikasi,
+            'status_sertifikasi' => (bool) $this->status_sertifikasi,
             'nominal_sertifikasi_yg_diterima' => $this->nominal_sertifikasi_yg_diterima,
-            'status_remonerasi' => $this->status_remonerasi,
+            'status_remonerasi' => (bool) $this->status_remonerasi,
             'nominal_remonerasi' => $this->nominal_remonerasi,
-            'status_tukin' => $this->status_tukin,
+            'status_tukin' => (bool) $this->status_tukin,
             'nominal_tukin' => $this->nominal_tukin,
-            'status_selkin' => $this->status_selkin,
+            'status_selkin' => (bool) $this->status_selkin,
             'nominal_selkin' => $this->nominal_selkin,
             'statistic_num' => $this->statistic_num,
-            'institution_category' => $this->institution_category,
         ]);
 
         session()->flash('success', 'Data pegawai berhasil diperbarui.');

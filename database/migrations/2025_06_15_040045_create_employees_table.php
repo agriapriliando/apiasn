@@ -49,15 +49,15 @@ return new class extends Migration
                 'Data Tidak Diketahui',
             ])->nullable()->comment('Status Pernikahan');
             $table->boolean('status_sertifikasi')->default(false)->comment('Status Sertifikasi');
-            $table->integer('nominal_sertifikasi_yg_diterima')->nullable()->comment('Nominal Sertifikasi yang Diterima');
+            $table->integer('nominal_sertifikasi_yg_diterima')->default(0)->comment('Nominal Sertifikasi yang Diterima');
             $table->boolean('status_remonerasi')->default(false)->comment('Status Remunerasi');
-            $table->integer('nominal_remonerasi')->nullable()->comment('Nominal Remunerasi');
+            $table->integer('nominal_remonerasi')->default(0)->comment('Nominal Remunerasi');
             $table->boolean('status_tukin')->default(false)->comment('Status Tunjangan Kinerja');
-            $table->integer('nominal_tukin')->nullable()->comment('Nominal Tunjangan Kinerja');
+            $table->integer('nominal_tukin')->default(0)->comment('Nominal Tunjangan Kinerja');
             $table->boolean('status_selkin')->default(false)->comment('Status Seleksi Kinerja');
-            $table->integer('nominal_selkin')->nullable()->comment('Nominal Seleksi Kinerja');
-            $table->string('statistic_num', 80)->nullable()->comment('Nomor Statistik');
-            $table->string('nama_institusi', 100)->nullable()->comment('Nama Institusi');
+            $table->integer('nominal_selkin')->default(0)->comment('Nominal Seleksi Kinerja');
+            $table->string('statistic_num', 80)->default(0)->comment('Nomor Statistik');
+            $table->string('nama_institusi', 100)->default('IAKN Palangka Raya')->comment('Nama Institusi');
             $table->enum('institution_category', [
                 'Universitas',
                 'Institut',

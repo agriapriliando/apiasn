@@ -34,7 +34,7 @@ class EmployeeIndex extends Component
 
     public function mount()
     {
-        $this->bln_data = "";
+        $this->bln_data = now()->month;
         $this->thn_data = now()->year;
         $this->bln_tujuan = "";
         $this->thn_tujuan = now()->year;
@@ -57,7 +57,7 @@ class EmployeeIndex extends Component
             ->whereYear('tgl_data', $this->thn_data)
             ->get();
         // Untuk re-inisialisasi DataTable di JS
-        $this->dispatch('datatable-reload');
+        // $this->dispatch('datatable-reload');
     }
 
     public function duplicateToAnotherMonth()

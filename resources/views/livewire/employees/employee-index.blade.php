@@ -6,7 +6,12 @@
                     <h3 class="fs-5 mb-2 text-secondary text-uppercase">IAKN Palangka Raya</h3>
                     <h2 class="display-5">Aplikasi Data ASN Interkoneksi</h2>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12">
+                    <button onclick="location.reload()" class="btn btn-warning">
+                        Refresh Halaman
+                    </button>
+                </div>
+                <div class="col-12 col-md-8 d-none">
                     <div class="row g-2 align-items-center mb-3">
                         <div class="col-auto">
                             <label>Data Bulan:</label>
@@ -99,6 +104,30 @@
                 <div class="col-12">
                     <div class="row justify-content-xl-center">
                         <div class="col-12 col-xl-11">
+                            <div>
+                                Toggle column:
+                                <a class="toggle-vis btn btn-sm" data-column="1">Nik</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="3">Nidn</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="4">Nuptk</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="6">Gender</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="7">Tempat</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="8">Tgl Lahir</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="9">Address</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="10">Kecamatan</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="11">Kota</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="12">Provinsi</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="14">Agama</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="16">Status Nikah</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="17">Sertifikasi</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="18">Nominal Ser</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="21">Tukin</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="22">Nominal Tukin</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="23">Selkin</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="24">Nominal Selkin</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="25">Statistik Num</a> -
+                                <a class="toggle-vis btn btn-sm" data-column="26">last_update</a>
+
+                            </div>
                             <!-- table -->
                             <div class="mb-4 mb-md-5">
                                 <table id="myTable" class="table table-bordered">
@@ -127,11 +156,10 @@
                                             <th>Nominal Remunerasi</th>
                                             <th>Tunjangan Kinerja</th>
                                             <th>Nominal Tukin</th>
-                                            <th>Seleksi Kinerja</th>
+                                            <th>Selisih Tukin<br>Selkin</th>
                                             <th>Nominal Selkin</th>
                                             <th>Nomor Statistik</th>
-                                            <th>Nama Institusi</th>
-                                            <th>Kategori Institusi</th>
+                                            <th>Last Update</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -139,7 +167,10 @@
                                             <tr>
                                                 <td>{{ $loop->iteration }}
                                                     <div class="d-print-none">
-                                                        <a wire:navigate href="{{ url('employees/' . $employee->id . '/edit') }}" class="btn btn-sm"><i class="bi bi-pencil"></i></a>
+                                                        <a target="_blank" href="{{ url('employees/' . $employee->id . '/edit') }}" class="btn btn-sm"><i class="bi bi-pencil"></i></a>
+                                                        <a target="_blank"
+                                                            href="https://wa.me/{{ $employee->mobile_num }}?text=Selamat%20Pagi%20Bpk%2FIbu.%20Mohon%20perkenaannya%20mengisi%20form%20berikut%20untuk%20Data%20Interkoneksi%20Kementerian%20Agama.%20Terima%20kasih.%0ALink%20%3A%20{{ url('employees/' . $employee->id . '/edit') }}"
+                                                            class="btn btn-sm"><i class="bi bi-whatsapp"></i></a>
                                                     </div>
                                                 </td>
                                                 <td>{{ $employee->nik }}</td>
@@ -167,8 +198,7 @@
                                                 <td>{!! $employee->status_selkin ? '✅' : '❌' !!}</td>
                                                 <td>{{ number_format($employee->nominal_selkin ?? 0, 0, ',', '.') }}</td>
                                                 <td>{{ $employee->statistic_num }}</td>
-                                                <td>{{ $employee->nama_institusi }}</td>
-                                                <td>{{ $employee->institution_category }}</td>
+                                                <td>{{ $employee->updated_at->locale('id')->isoFormat('D MMMM Y HH:mm') }} WIB</td>
                                             </tr>
                                         @endforeach
                                     </tbody>
