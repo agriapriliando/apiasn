@@ -174,17 +174,17 @@
                                                     url('employees/' . $employee->id . '/edit');
                                             @endphp
                                             <tr>
-                                                <td>{{ $loop->iteration }}
+                                                <td>{{ $loop->iteration }}</td>
+                                                <td>{{ $employee->nik }}</td>
+                                                <td>{{ $employee->nip }}</td>
+                                                <td>{{ $employee->nidn }}</td>
+                                                <td>{{ $employee->nuptk }}</td>
+                                                <td>{{ $employee->nama_lengkap }}
                                                     <div class="d-print-none">
                                                         <a target="_blank" href="{{ url('employees/' . $employee->id . '/edit') }}" class="btn btn-sm"><i class="bi bi-pencil"></i></a>
                                                         <a target="_blank" href="{{ $link_wa }}" class="btn btn-sm"><i class="bi bi-whatsapp"></i></a>
                                                     </div>
                                                 </td>
-                                                <td>{{ $employee->nik }}</td>
-                                                <td>{{ $employee->nip }}</td>
-                                                <td>{{ $employee->nidn }}</td>
-                                                <td>{{ $employee->nuptk }}</td>
-                                                <td>{{ $employee->nama_lengkap }}</td>
                                                 <td>{{ $employee->gender == 'L' ? 'Laki-laki' : 'Perempuan' }}</td>
                                                 <td>{{ $employee->birth_place }}</td>
                                                 <td>{{ $employee->birth_date ? \Carbon\Carbon::parse($employee->birth_date)->format('d-m-Y') : '' }}</td>
