@@ -82,7 +82,7 @@
 
                             <div class="col-12 col-md-6 mb-2">
                                 <label for="nidn" class="form-label">NIDN</label>
-                                <input type="text" id="nidn" class="form-control @error('nidn') is-invalid @enderror" wire:model="nidn" required>
+                                <input type="text" id="nidn" class="form-control @error('nidn') is-invalid @enderror" wire:model="nidn">
                                 @error('nidn')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
@@ -195,7 +195,7 @@
 
                             <div class="col-12 col-md-3 mb-2">
                                 <label for="status_pernikahan" class="form-label">Status Nikah</label>
-                                <select id="status_pernikahan" name="status_pernikahan" class="form-select" wire:model="status_pernikahan">
+                                <select id="status_pernikahan" name="status_pernikahan" class="form-select" wire:model="status_pernikahan" required>
                                     <option value="">== PILIH ==</option>
                                     <option value="Menikah">Menikah</option>
                                     <option value="Belum Menikah">Belum Menikah</option>
