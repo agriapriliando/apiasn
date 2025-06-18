@@ -169,7 +169,7 @@
                                                     <div class="d-print-none">
                                                         <a target="_blank" href="{{ url('employees/' . $employee->id . '/edit') }}" class="btn btn-sm"><i class="bi bi-pencil"></i></a>
                                                         <a target="_blank"
-                                                            href="https://wa.me/{{ $employee->mobile_num }}?text=Selamat%20Pagi%20Bpk%2FIbu.%20Mohon%20perkenaannya%20mengisi%20form%20berikut%20untuk%20Data%20Interkoneksi%20Kementerian%20Agama.%20Terima%20kasih.%0ALink%20%3A%20{{ url('employees/' . $employee->id . '/edit') }}"
+                                                            href="https://wa.me/{{ preg_replace('/^0/', '62', $employee->mobile_num) }}?text=Selamat%20Pagi%20Bpk%2FIbu.%20Mohon%20perkenaannya%20mengisi%20form%20berikut%20untuk%20Data%20Interkoneksi%20Kementerian%20Agama.%20Terima%20kasih.%0ALink%20%3A%20{{ url('employees/' . $employee->id . '/edit') }}"
                                                             class="btn btn-sm"><i class="bi bi-whatsapp"></i></a>
                                                     </div>
                                                 </td>
