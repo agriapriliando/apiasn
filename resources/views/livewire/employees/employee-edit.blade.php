@@ -33,7 +33,11 @@
                     <form wire:submit.prevent="update">
                         <div class="row">
                             <div class="col-12 mb-2">
-                                <a href="{{ url('employees') }}" class="btn btn-primary mb-3">Kembali</a>
+                                @if (session()->has('kre'))
+                                    <a href="{{ url('employees') }}" class="btn btn-primary mb-3">Kembali</a>
+                                @else
+                                    <a href="{{ session('link') }}" class="btn btn-primary mb-3">Refresh</a>
+                                @endif
                                 <button onclick="window.close()" class="btn btn-danger mb-3">
                                     Tutup Tab
                                 </button>

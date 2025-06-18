@@ -17,8 +17,9 @@ class EmployeeEdit extends Component
 
     public function mount($id)
     {
-        $this->employee = Employee::findOrFail($id);
 
+        $this->employee = Employee::findOrFail($id);
+        session(['link' => url()->current()]);
         $this->nik = $this->employee->nik;
         $this->nip = $this->employee->nip;
         $this->nidn = $this->employee->nidn;
