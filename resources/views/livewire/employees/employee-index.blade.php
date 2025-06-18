@@ -164,13 +164,20 @@
                                     </thead>
                                     <tbody>
                                         @foreach ($employees as $employee)
+                                            @php
+                                                $link_wa =
+                                                    'https://wa.me/62' .
+                                                    substr($employee->mobile_num, 1) .
+                                                    '?text=Selamat%20Pagi%20Bpk%2FIbu%20' .
+                                                    $employee->nama_lengkap .
+                                                    '.%20Mohon%20perkenaannya%20mengisi%20form%20berikut%20untuk%20Data%20Interkoneksi%20Kementerian%20Agama.%20Terima%20kasih.%0ALink%20%3A%20' .
+                                                    url('employees/' . $employee->id . '/edit');
+                                            @endphp
                                             <tr>
                                                 <td>{{ $loop->iteration }}
                                                     <div class="d-print-none">
                                                         <a target="_blank" href="{{ url('employees/' . $employee->id . '/edit') }}" class="btn btn-sm"><i class="bi bi-pencil"></i></a>
-                                                        <a target="_blank"
-                                                            href="https://wa.me/{{ '62' . substr($employee->mobile_num, 1) }}?text=Selamat%20Pagi%20Bpk%2FIbu.%20Mohon%20perkenaannya%20mengisi%20form%20berikut%20untuk%20Data%20Interkoneksi%20Kementerian%20Agama.%20Terima%20kasih.%0ALink%20%3A%20{{ url('employees/' . $employee->id . '/edit') }}"
-                                                            class="btn btn-sm"><i class="bi bi-whatsapp"></i></a>
+                                                        <a target="_blank" href="{{ $link_wa }}" class="btn btn-sm"><i class="bi bi-whatsapp"></i></a>
                                                     </div>
                                                 </td>
                                                 <td>{{ $employee->nik }}</td>
