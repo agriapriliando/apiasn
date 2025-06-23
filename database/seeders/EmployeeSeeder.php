@@ -1532,8 +1532,8 @@ class EmployeeSeeder extends Seeder
             "4347580",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "554770"
         ],
         [
             "62",
@@ -1882,8 +1882,8 @@ class EmployeeSeeder extends Seeder
             "4171165",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "740470"
         ],
         [
             "76",
@@ -2332,8 +2332,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "2884080"
         ],
         [
             "94",
