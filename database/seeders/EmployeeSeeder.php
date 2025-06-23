@@ -11,6 +11,11 @@ class EmployeeSeeder extends Seeder
 {
     public $employees = [
         [
+            "1",
+            "6271036606700003",
+            "19700626 200501 2 004",
+            "2026067002",
+            "",
             "Telhalia, M.Th., D.Th",
             "P",
             "Palangka Raya",
@@ -31,6 +36,11 @@ class EmployeeSeeder extends Seeder
             "3889200"
         ],
         [
+            "2",
+            "6271046602770002",
+            "19770226 200604 2 001",
+            "2026027701",
+            "",
             "Dr. Prasetiawati, M.Th",
             "P",
             "Tumbang Habaon",
@@ -51,6 +61,11 @@ class EmployeeSeeder extends Seeder
             "4349290"
         ],
         [
+            "3",
+            "6271036106730004",
+            "19730621 200604 2 001",
+            "2021067302",
+            "",
             "Tirta Susila, D.Th",
             "P",
             "Palangka Raya",
@@ -71,6 +86,11 @@ class EmployeeSeeder extends Seeder
             "4260800"
         ],
         [
+            "4",
+            "3175081611670003",
+            "19671116 198903 1 004",
+            "",
+            "",
             "Dr. Suwarsono S.PAK., M.M",
             "L",
             "Gunung Kidul",
@@ -91,6 +111,11 @@ class EmployeeSeeder extends Seeder
             "11670000"
         ],
         [
+            "5",
+            "6271040507680002",
+            "19680705 200604 1 002",
+            "",
+            "",
             "Suprianto, S.PAK.",
             "L",
             "Aruk,Kapuas",
@@ -111,6 +136,11 @@ class EmployeeSeeder extends Seeder
             "5079340"
         ],
         [
+            "6",
+            "7318050505770006",
+            "19770505 200801 1 018",
+            "2205057701",
+            "",
             "Dr. Maidiantius Tanyid, M.Th",
             "L",
             "Makassar",
@@ -131,6 +161,11 @@ class EmployeeSeeder extends Seeder
             "4177260"
         ],
         [
+            "7",
+            "6171031506760012",
+            "19760615 202321 1 000",
+            "2315067601",
+            "",
             "Urbanus, M.Th",
             "L",
             "Kab. Sintang",
@@ -151,6 +186,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "8",
+            "6271016002740002",
+            "19740220 200604 2 001",
+            "2220027401",
+            "",
             "Dr. Rina Teriasi, S.Th., M.Si.",
             "P",
             "Kasongan",
@@ -171,6 +211,11 @@ class EmployeeSeeder extends Seeder
             "4306480"
         ],
         [
+            "9",
+            "6271036508720004",
+            "19720825 200604 2 003",
+            "2025087201",
+            "",
             "Dr. Stynie Nova Tumbol, M.Th",
             "P",
             "Ternate",
@@ -191,6 +236,11 @@ class EmployeeSeeder extends Seeder
             "987185"
         ],
         [
+            "10",
+            "6271030609700004",
+            "19700906 199512 1 001",
+            "2206097001",
+            "",
             "Berth Penny Pahan, M.Pd.",
             "L",
             "Banjarmasin",
@@ -211,6 +261,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "11",
+            "3278085207930010",
+            "19930712 201903 2 019",
+            "2012079302",
+            "",
             "Silvia Rahmelia, M.Pd",
             "P",
             "Kota Tasikmalaya",
@@ -231,6 +286,11 @@ class EmployeeSeeder extends Seeder
             "1835685"
         ],
         [
+            "12",
+            "6271036706900008",
+            "19900627 201903 2 015",
+            "2027069002",
+            "",
             "Yoan Colina, M.AP",
             "P",
             "Palangka Raya",
@@ -251,6 +311,11 @@ class EmployeeSeeder extends Seeder
             "1835685"
         ],
         [
+            "13",
+            "6271032506850006",
+            "19850625 200901 1 011",
+            "2025068502",
+            "",
             "Pribadyo Prakosa, S.Si., M.Si.Teol",
             "L",
             "Palangka Raya",
@@ -271,6 +336,11 @@ class EmployeeSeeder extends Seeder
             "1140500"
         ],
         [
+            "14",
+            "6208055706850001",
+            "19850617 201903 2 009",
+            "2017068503",
+            "",
             "Sri Angellyna, M.Th",
             "P",
             "Kab. Kotawaringin Barat",
@@ -291,6 +361,11 @@ class EmployeeSeeder extends Seeder
             "1809770"
         ],
         [
+            "15",
+            "6271035304780005",
+            "19780413 200912 2 001",
+            "2013047802",
+            "",
             "Merilyn, M.Th",
             "P",
             "Palangka Raya",
@@ -311,6 +386,11 @@ class EmployeeSeeder extends Seeder
             "1263900"
         ],
         [
+            "16",
+            "1208076610900002",
+            "19901026 201903 2 021",
+            "2026109002",
+            "",
             "Oktani Haloho, M.Sc",
             "P",
             "Kab. Simalungun",
@@ -331,6 +411,11 @@ class EmployeeSeeder extends Seeder
             "1654280"
         ],
         [
+            "17",
+            "5312106505860001",
+            "19860525 202321 2 000",
+            "2025058604",
+            "",
             "Merry Bendelina Asalaka, S.Si-Teol., M.Pd",
             "P",
             "Kab. Sumba Barat",
@@ -351,6 +436,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "18",
+            "6271034208830003",
+            "19830802 201503 2 003",
+            "2002088302",
+            "",
             "Riwu Wulan, S.T, M.Pd",
             "P",
             "Kotawaringin Barat",
@@ -371,6 +461,11 @@ class EmployeeSeeder extends Seeder
             "1499600"
         ],
         [
+            "19",
+            "8171025310950006",
+            "19951013 202203 2 006",
+            "2013109501",
+            "",
             "Sharon Michelle O Pattiasina, S.Si.Teol., M.Si",
             "P",
             "Ambon",
@@ -391,6 +486,11 @@ class EmployeeSeeder extends Seeder
             "786000"
         ],
         [
+            "20",
+            "3321022207750002",
+            "19750722 201101 1 001",
+            "",
+            "",
             "Julidi Lahagu, S.Th",
             "L",
             "Nias",
@@ -411,6 +511,11 @@ class EmployeeSeeder extends Seeder
             "3705380"
         ],
         [
+            "21",
+            "6271032506810004",
+            "19810625 200901 1 009",
+            "2025068101",
+            "",
             "Joni Saputra, S.T., M.Kom",
             "L",
             "Palangka Raya",
@@ -431,6 +536,11 @@ class EmployeeSeeder extends Seeder
             "1140500"
         ],
         [
+            "22",
+            "6271035709870001",
+            "19870917 201903 2 005",
+            "1117098702",
+            "",
             "Lelly Sepniwati, M.Hum",
             "P",
             "Kab. Kotawaringin Timur",
@@ -451,6 +561,11 @@ class EmployeeSeeder extends Seeder
             "1835685"
         ],
         [
+            "23",
+            "3471035610660001",
+            "19661016 200003 2 000",
+            "",
+            "",
             "Dra. Sri Gunarti Sabdaningrum, M.Pd.K",
             "P",
             "Sambon",
@@ -471,6 +586,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "24",
+            "7171092311870005",
+            "19871123 202012 1 008",
+            "2023118701",
+            "",
             "Fernando Dorothius Pongoh, S.Si., M.Si",
             "L",
             "Manado",
@@ -491,6 +611,11 @@ class EmployeeSeeder extends Seeder
             "691700"
         ],
         [
+            "25",
+            "7317115504940002",
+            "19940415 201903 2 025",
+            "2015049401",
+            "",
             "Wirastiani Binti Yusup, M.Pd",
             "P",
             "Sabah",
@@ -511,6 +636,11 @@ class EmployeeSeeder extends Seeder
             "1706110"
         ],
         [
+            "26",
+            "6201026903930001",
+            "19930329 201903 2 023",
+            "2029039301",
+            "",
             "Ratih Sulistyowati, M.Pd",
             "P",
             "Kab. Kotawaringin Barat",
@@ -531,6 +661,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "27",
+            "6271032601820001",
+            "19820126 200901 1 013",
+            "2226018201",
+            "",
             "Lianto, M.Th",
             "L",
             "Jaar",
@@ -551,6 +686,11 @@ class EmployeeSeeder extends Seeder
             "1140500"
         ],
         [
+            "28",
+            "6271016707920007",
+            "19920727 201903 2 030",
+            "2027079203",
+            "",
             "Yolantya Widyasari, M.I.Kom",
             "P",
             "Palangka Raya",
@@ -571,6 +711,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "29",
+            "6171051902850004",
+            "19850219 201801 1 001",
+            "2019028501",
+            "",
             "Pransinartha, M.A",
             "L",
             "Palangka Raya",
@@ -591,6 +736,11 @@ class EmployeeSeeder extends Seeder
             "1721100"
         ],
         [
+            "30",
+            "6271044210900001",
+            "19901002 202321 2 000",
+            "2002109002",
+            "",
             "Dwi Sartica, S.Pd., M.Pd",
             "P",
             "Palangka Raya",
@@ -611,6 +761,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "31",
+            "6107081612860001",
+            "19861216 202012 1 008",
+            "2016128604",
+            "",
             "Lukas, M.Pd.K",
             "L",
             "Bengkayang",
@@ -631,6 +786,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "32",
+            "7102095712950001",
+            "19951217 202012 2 022",
+            "2017129501",
+            "",
             "Della Gita Van Gobel, M.Pd",
             "P",
             "Minahasa",
@@ -651,6 +811,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "33",
+            "6271032401900001",
+            "19900124 201908 1 001",
+            "2024019003",
+            "",
             "Chris Apandie, M.Pd",
             "L",
             "Palangka Raya",
@@ -671,6 +836,11 @@ class EmployeeSeeder extends Seeder
             "1833425"
         ],
         [
+            "34",
+            "6271034801870004",
+            "19870108 201903 2 007",
+            "2008018702",
+            "",
             "Isabella Jeniva, M.Si",
             "P",
             "Palangka Raya",
@@ -691,6 +861,11 @@ class EmployeeSeeder extends Seeder
             "1757940"
         ],
         [
+            "35",
+            "6301094208950001",
+            "19950802 202321 2 000",
+            "2002089501",
+            "",
             "Ellysa Juang Agusti, M.Pd",
             "P",
             "Kab. Tanah Laut",
@@ -711,6 +886,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "36",
+            "6271037010860004",
+            "19861030 202321 2 000",
+            "9922010515",
+            "",
             "Lisa Maneli, M.Psi",
             "P",
             "Palangka Raya",
@@ -731,6 +911,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "37",
+            "6271034103880005",
+            "19860425 202012 1 007",
+            "2025048602",
+            "",
             "Aprianto Wirawan, M.Th",
             "L",
             "Palangka Raya",
@@ -751,6 +936,11 @@ class EmployeeSeeder extends Seeder
             "691700"
         ],
         [
+            "38",
+            "6271035101740003",
+            "19740111 202321 2 000",
+            "9922010525",
+            "",
             "Ebariani, M.Th",
             "P",
             "Kab. Barito Timur",
@@ -771,6 +961,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "39",
+            "6271034103880005",
+            "19930315 202012 2 023",
+            "2015059301",
+            "",
             "Maria Veronica, M.Ag",
             "P",
             "Kapuas",
@@ -791,6 +986,11 @@ class EmployeeSeeder extends Seeder
             "691700"
         ],
         [
+            "40",
+            "6203012305680001",
+            "19680523 202321 1 000",
+            "9922010523",
+            "",
             "Yosef Darmasatria Bakti, M.Min",
             "L",
             "Kab. Bengkayang",
@@ -811,6 +1011,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "41",
+            "6271034204910001",
+            "19910402 201903 2 010",
+            "2002049101",
+            "",
             "Danella Merdiasi, M.Psi",
             "P",
             "Palangka Raya",
@@ -831,6 +1036,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "42",
+            "6210021412830001",
+            "19831214 201903 1 003",
+            "1114128303",
+            "",
             "Deri Susanto, M.Si",
             "L",
             "Kuala Kurun",
@@ -851,6 +1061,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "43",
+            "6271031504830004",
+            "19830415 202321 1 000",
+            "2015048304",
+            "",
             "Kukuh Pribadi, M.Psi",
             "L",
             "Palangka Raya",
@@ -871,6 +1086,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "44",
+            "6271034312920004",
+            "19921203 202321 2 000",
+            "0003129201",
+            "",
             "Elvira, M.Sn",
             "P",
             "Palangka Raya",
@@ -891,6 +1111,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "45",
+            "1277026410920005",
+            "19921024 202012 2 009",
+            "2024109201",
+            "",
             "Octa Maria Sihombing, M.Pd",
             "P",
             "Padangsidimpuan",
@@ -911,6 +1136,11 @@ class EmployeeSeeder extends Seeder
             "691700"
         ],
         [
+            "46",
+            "1207234604890003",
+            "19890406 202203 2 002",
+            "2006048903",
+            "",
             "Frisca Aries BR. Lumban Tobing, S.Pd., M.Sn",
             "P",
             "Medan",
@@ -931,6 +1161,11 @@ class EmployeeSeeder extends Seeder
             "786000"
         ],
         [
+            "47",
+            "6271015401890001",
+            "19890114 202203 2 001",
+            "2014018901",
+            "",
             "Anggita Deodora Siten, S.Psi., M.Psi",
             "P",
             "Palangka Raya",
@@ -951,6 +1186,11 @@ class EmployeeSeeder extends Seeder
             "786000"
         ],
         [
+            "48",
+            "3573021503850008",
+            "19850315 201503 1 003",
+            "2015038502",
+            "",
             "Matius Timan Herdi Ginting, M.Pd.K",
             "L",
             "Malang",
@@ -971,6 +1211,11 @@ class EmployeeSeeder extends Seeder
             "1499600"
         ],
         [
+            "49",
+            "1211151602770001",
+            "19770216 202321 1 000",
+            "2316027701",
+            "",
             "Kalip, M.Pd.K",
             "L",
             "Kab. Sintang",
@@ -991,6 +1236,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "50",
+            "6271035602900001",
+            "19900216 202321 2 000",
+            "2016029001",
+            "",
             "Komala Sari, M.Th",
             "P",
             "Palangka Raya",
@@ -1011,6 +1261,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "51",
+            "3277010904800036",
+            "19800409 201101 1 005",
+            "2209048001",
+            "",
             "Dr. Yamowa'a Bate'e, M.Th",
             "L",
             "Ombolata/Nias",
@@ -1031,6 +1286,11 @@ class EmployeeSeeder extends Seeder
             "4477100"
         ],
         [
+            "52",
+            "6271026907930002",
+            "19760222 200604 2 002",
+            "2222027601",
+            "",
             "Dr. Setinawati,M.Th",
             "P",
             "Kuala Kurun",
@@ -1051,6 +1311,11 @@ class EmployeeSeeder extends Seeder
             "4172990"
         ],
         [
+            "53",
+            "6271034211640003",
+            "19641102 200003 2 003",
+            "2202116401",
+            "",
             "Dr. Sanasintani, S.Th., M.Pd",
             "P",
             "Tampa",
@@ -1071,6 +1336,11 @@ class EmployeeSeeder extends Seeder
             "4125300"
         ],
         [
+            "54",
+            "6271014501770006",
+            "19770105 200604 2 003",
+            "0005017706",
+            "",
             "Dr. Evi Mariani,S.Fil, MA",
             "P",
             "Palangka Raya",
@@ -1091,6 +1361,11 @@ class EmployeeSeeder extends Seeder
             "935855"
         ],
         [
+            "55",
+            "6271035603760002",
+            "19760316 201101 2 002",
+            "2216037601",
+            "",
             "Dr. Sarmauli, M.Th",
             "P",
             "Bengkulu",
@@ -1111,6 +1386,11 @@ class EmployeeSeeder extends Seeder
             "4642900"
         ],
         [
+            "56",
+            "6171023006690002",
+            "19690630 200801 1 007",
+            "2230066901",
+            "",
             "Dr. Wilson, M.Th",
             "L",
             "Pelaik-Sintang",
@@ -1131,6 +1411,11 @@ class EmployeeSeeder extends Seeder
             "1056400"
         ],
         [
+            "57",
+            "6271032603770006",
+            "19770326 200801 1 007",
+            "2226037701",
+            "",
             "Dr. Agus Surya, M.Th.",
             "L",
             "Pontianak",
@@ -1151,6 +1436,11 @@ class EmployeeSeeder extends Seeder
             "4683500"
         ],
         [
+            "58",
+            "6271031008640005",
+            "19640810 199203 1 011",
+            "2010086403",
+            "",
             "Drs. Rudie, M.Pd",
             "L",
             "Kapuas Hulu",
@@ -1171,6 +1461,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "59",
+            "6271042309610001",
+            "19610923 199303 1 001",
+            "2023096101",
+            "",
             "Sugiyanto, S.PAK., M.Th",
             "L",
             "Tumbang Talaken",
@@ -1191,6 +1486,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "60",
+            "3318170101620007",
+            "19620101 198201 1 001",
+            "2001016244",
+            "",
             "Dr. Stephanus Prihadi, M.Th",
             "L",
             "Pati",
@@ -1211,6 +1511,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "61",
+            "6271031902650001",
+            "19650219 200501 1 002",
+            "2219026501",
+            "",
             "Yuel,S.PAK, M.Th",
             "L",
             "Puruk Cahu",
@@ -1231,6 +1536,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "62",
+            "6271031208750004",
+            "19750812 200901 1 006",
+            "2212087501",
+            "",
             "Agus Budi Handoko,S.Th, M.Sn",
             "L",
             "Surakarta",
@@ -1251,6 +1561,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "63",
+            "1802204301860003",
+            "19860103 201503 2 003",
+            "2003018601",
+            "",
             "Indah Sriwijayanti, M.Si.Teol",
             "P",
             "Panjirejo",
@@ -1271,6 +1586,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "64",
+            "5371021011810002",
+            "19811110 201403 1 001",
+            "2210118101",
+            "",
             "Rinto Hasiholan Hutapea, M.Th",
             "L",
             "Sibolga",
@@ -1291,6 +1611,11 @@ class EmployeeSeeder extends Seeder
             "1499600"
         ],
         [
+            "65",
+            "6271032111800003",
+            "19801121 200801 1 004",
+            "2021118001",
+            "",
             "Jeffry Simson Supardi, M.Psi",
             "L",
             "Malang",
@@ -1311,6 +1636,11 @@ class EmployeeSeeder extends Seeder
             "1036840"
         ],
         [
+            "66",
+            "6271016403840005",
+            "19840324 200901 2 011",
+            "2224038401",
+            "",
             "Lilyantie,S.Th, M.Si",
             "P",
             "Palangka Raya",
@@ -1331,6 +1661,11 @@ class EmployeeSeeder extends Seeder
             "1140500"
         ],
         [
+            "67",
+            "6271036212740001",
+            "19741222 200801 2 009",
+            "2222127401",
+            "",
             "Karolina, S.Th, M.Si",
             "P",
             "Palangka Raya",
@@ -1351,6 +1686,11 @@ class EmployeeSeeder extends Seeder
             "1036840"
         ],
         [
+            "68",
+            "6271036910860003",
+            "19861029 201801 2 001",
+            "2029108601",
+            "",
             "Eva Inriani, M.Th",
             "P",
             "Gunung Mas",
@@ -1371,6 +1711,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "69",
+            "6210026212850001",
+            "19851222 201903 2 008",
+            "1122128503",
+            "",
             "Desi Natalia, M.Si",
             "P",
             "Palangka Raya",
@@ -1391,6 +1736,11 @@ class EmployeeSeeder extends Seeder
             "1783855"
         ],
         [
+            "70",
+            "3275051211880010",
+            "19881122 201903 1 011",
+            "2322118801",
+            "",
             "Daido Tri Sampurna Lumban Raja, M.Th",
             "L",
             "Jakarta",
@@ -1411,6 +1761,11 @@ class EmployeeSeeder extends Seeder
             "1861600"
         ],
         [
+            "71",
+            "5104024812920005",
+            "19921208 201903 2 019",
+            "2008129202",
+            "",
             "Ni Nyoman Astrini Utami, M.Hum",
             "P",
             "Kab. Ganyar",
@@ -1431,6 +1786,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "72",
+            "6271033009920001",
+            "19920930 201903 1 010",
+            "0030099201",
+            "",
             "Putra Andino Nugrahhu, M.Pd",
             "L",
             "Banjarmasin",
@@ -1451,6 +1811,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "73",
+            "6271031610900001",
+            "19901016 201903 1 010",
+            "2016109001",
+            "",
             "Defri Triadi, M.Si",
             "L",
             "Palangka Raya",
@@ -1471,6 +1836,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "74",
+            "6271034103880005",
+            "19880301 201903 2 012",
+            "2001038803",
+            "",
             "Tiavone Theressa Andiny, M.Si",
             "P",
             "Palangka Raya",
@@ -1491,6 +1861,11 @@ class EmployeeSeeder extends Seeder
             "1732025"
         ],
         [
+            "75",
+            "6271035809660001",
+            "19660918 200501 2 003",
+            "2218096601",
+            "",
             "Dr.Silipta, S.PAK., M.Th",
             "P",
             "Kotawaringin Timur",
@@ -1511,6 +1886,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "76",
+            "9101016004860001",
+            "19860420 201503 2 002",
+            "2020048602",
+            "",
             "Latupeirissa Risvan, S.Si.Teol, M.Si",
             "P",
             "Merauke",
@@ -1531,6 +1911,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "77",
+            "3275061909890014",
+            "19890919 201903 1 011",
+            "2319098901",
+            "",
             "Reynhard Malau, M.Th",
             "L",
             "Jakarta",
@@ -1551,6 +1936,11 @@ class EmployeeSeeder extends Seeder
             "594400"
         ],
         [
+            "78",
+            "6271026907930002",
+            "19930729 201908 2 001",
+            "2029079301",
+            "",
             "Cristi Devi Darnita, M.A.",
             "P",
             "Palangka Raya",
@@ -1571,6 +1961,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "79",
+            "1607104810880008",
+            "19881008 202012 2 016",
+            "2008108804",
+            "",
             "Yane Octavia Rismawati Wainarisi, M.Th",
             "P",
             "Pontianak",
@@ -1591,6 +1986,11 @@ class EmployeeSeeder extends Seeder
             "691700"
         ],
         [
+            "80",
+            "1202151903890002",
+            "19890319 202012 1 010",
+            "2019038902",
+            "",
             "Alfonso Munte, M.Pd.K",
             "L",
             "Palembang",
@@ -1611,6 +2011,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "81",
+            "6203055404930001",
+            "19930114 202012 2 020",
+            "2014019303",
+            "",
             "Yola Pradita, M.Th",
             "P",
             "Kapuas",
@@ -1631,6 +2036,11 @@ class EmployeeSeeder extends Seeder
             "616080"
         ],
         [
+            "82",
+            "6271034309780002",
+            "19780903 200901 2 008",
+            "",
+            "",
             "Fitrisiswanty, S.E., M.Si",
             "P",
             "Palangka Raya",
@@ -1651,6 +2061,11 @@ class EmployeeSeeder extends Seeder
             "4551000"
         ],
         [
+            "83",
+            "6271015507810008",
+            "19810715 200901 2 016",
+            "",
+            "",
             "Friska Muliani, S.IP.",
             "P",
             "Palangka Raya",
@@ -1671,6 +2086,11 @@ class EmployeeSeeder extends Seeder
             "4551000"
         ],
         [
+            "84",
+            "6271032904930007",
+            "19930429 201903 1 011",
+            "",
+            "",
             "Agri Apriliando, S.T",
             "L",
             "Palangka Raya",
@@ -1691,6 +2111,11 @@ class EmployeeSeeder extends Seeder
             "3236025"
         ],
         [
+            "85",
+            "6208052404890001",
+            "19890424 201903 1 010",
+            "",
+            "",
             "Arther Evert Samuel, S.E",
             "L",
             "Jakarta",
@@ -1711,6 +2136,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "86",
+            "6203016404870002",
+            "19870424 202012 2 013",
+            "",
+            "",
             "Kronika Novie Welianti, S.H",
             "P",
             "Kuala Kapuas",
@@ -1731,6 +2161,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "87",
+            "6271030101930005",
+            "19930101 202012 1 021",
+            "",
+            "",
             "Raymond Gomgom Sitorus, S.Kom",
             "L",
             "Palangka Raya",
@@ -1751,6 +2186,11 @@ class EmployeeSeeder extends Seeder
             "3302405"
         ],
         [
+            "88",
+            "6210022412830000",
+            "19831224 200803 1 002",
+            "",
+            "",
             "Devid Prianata, S.E",
             "L",
             "Barito Selatan",
@@ -1771,6 +2211,11 @@ class EmployeeSeeder extends Seeder
             "4186920"
         ],
         [
+            "89",
+            "6271035508860010",
+            "19860815 200801 2 001",
+            "",
+            "",
             "Ika Agustina, S.E., M.Si.",
             "P",
             "Palangka Raya",
@@ -1791,6 +2236,11 @@ class EmployeeSeeder extends Seeder
             "3781000"
         ],
         [
+            "90",
+            "6271031706830009",
+            "19830617 200901 1 009",
+            "",
+            "",
             "Junadi Djojoatmodjo, S.E., M.Si.",
             "L",
             "Palangka Raya",
@@ -1811,6 +2261,11 @@ class EmployeeSeeder extends Seeder
             "3781000"
         ],
         [
+            "91",
+            "6271036204820010",
+            "19820422 201101 2 012",
+            "",
+            "",
             "Gracesilya Veronica Barus, S.E.",
             "P",
             "Buntut Bali, Kab.Katingan",
@@ -1831,6 +2286,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "92",
+            "6271036611790002",
+            "19791126 200501 2 008",
+            "",
+            "",
             "Trissia Noveta, S.Hut.",
             "P",
             "Kasongan",
@@ -1851,6 +2311,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "93",
+            "6271014505810016",
+            "19810505 200501 2 013",
+            "",
+            "",
             "Meilena Salom Muhaling, S.Si.",
             "P",
             "Banyumas",
@@ -1871,6 +2336,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "94",
+            "6271041803800002",
+            "19800318 200901 1 003",
+            "",
+            "",
             "Jhonny Rouland, S.E.",
             "L",
             "Jakarta",
@@ -1891,6 +2361,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "95",
+            "6704030911790001",
+            "19791109 201101 1 003",
+            "",
+            "",
             "Edward Dabukke, M.Pd",
             "L",
             "Dairi",
@@ -1911,6 +2386,11 @@ class EmployeeSeeder extends Seeder
             "2752320"
         ],
         [
+            "96",
+            "6212010305830003",
+            "19830503 201001 1 023",
+            "",
+            "",
             "Jayewardeni, S.Ds",
             "L",
             "Barito Selatan",
@@ -1931,6 +2411,11 @@ class EmployeeSeeder extends Seeder
             "2702000"
         ],
         [
+            "97",
+            "6271017001870002",
+            "19870130 200701 2 001",
+            "",
+            "",
             "Yudeniririn Kunanto, S.IP., M.Si",
             "P",
             "Palangka Raya",
@@ -1951,6 +2436,11 @@ class EmployeeSeeder extends Seeder
             "2634450"
         ],
         [
+            "98",
+            "6271034607770003",
+            "19770706 200501 2 015",
+            "",
+            "",
             "Netanya, A.Md., S.Pd.K.",
             "P",
             "Tumbang Lapan",
@@ -1971,6 +2461,11 @@ class EmployeeSeeder extends Seeder
             "2913360"
         ],
         [
+            "99",
+            "6271025403870001",
+            "19870314 201503 2 004",
+            "",
+            "",
             "Nanisusantie, S.Th.",
             "P",
             "Palangka Raya",
@@ -1991,6 +2486,11 @@ class EmployeeSeeder extends Seeder
             "2869440"
         ],
         [
+            "100",
+            "6210021302880002",
+            "19880213 201001 1 004",
+            "",
+            "",
             "Andika Petrus, S.Kep., M.A.P",
             "L",
             "Kurun",
@@ -2011,6 +2511,11 @@ class EmployeeSeeder extends Seeder
             "2702000"
         ],
         [
+            "101",
+            "6271031508780007",
+            "19780815 201411 1 001",
+            "",
+            "",
             "Philips Yacobus Tampa, S.E., M.A.P",
             "L",
             "Minahasa",
@@ -2031,6 +2536,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "102",
+            "6271042910640001",
+            "19780109 200501 2 008",
+            "",
+            "",
             "Ani Wawei, A.Md.",
             "P",
             "Buntok",
@@ -2051,6 +2561,11 @@ class EmployeeSeeder extends Seeder
             "2702000"
         ],
         [
+            "103",
+            "6203051704910002",
+            "19910417 202012 1 017",
+            "",
+            "",
             "Julianto, SE",
             "L",
             "Gunung Mas",
@@ -2071,6 +2586,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "104",
+            "6271035503680005",
+            "19680315 201411 2 004",
+            "",
+            "",
             "Etik Purnama, S.S.I",
             "P",
             "Barito Timur",
@@ -2091,6 +2611,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "105",
+            "6704030911790001",
+            "19721226 200701 1 016",
+            "",
+            "",
             "Natalis Ingat",
             "L",
             "Ampah",
@@ -2111,6 +2636,11 @@ class EmployeeSeeder extends Seeder
             "2493000"
         ],
         [
+            "106",
+            "6271010701690002",
+            "19690107 201411 1 002",
+            "",
+            "",
             "Reflie Ventie Runtu",
             "L",
             "Minahasa",
@@ -2131,6 +2661,11 @@ class EmployeeSeeder extends Seeder
             "2443140"
         ],
         [
+            "107",
+            "6271030311960001",
+            "19961103 202321 1 000",
+            "2003119601",
+            "",
             "Kurniawan Netanyahu, M.A",
             "L",
             "Kab. Kapuas",
@@ -2151,6 +2686,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "108",
+            "1276016711930002",
+            "19931127 202321 2 000",
+            "2027119303",
+            "",
             "Nova Lady Simanjuntak, M.Pd",
             "P",
             "Tebing Tinggi",
@@ -2171,6 +2711,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "109",
+            "3274042411790008",
+            "19791124 202321 1 000",
+            "2024117903",
+            "",
             "Agus Sutrisno Muljono, S.Psi., M.Si",
             "L",
             "Cirebon",
@@ -2191,6 +2736,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "110",
+            "6372056312690001",
+            "19691223 202321 2 000",
+            "2023126901",
+            "",
             "Citra Dewi, M.Th",
             "P",
             "Kab. Pulang Pisau",
@@ -2211,6 +2761,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "111",
+            "6271036903900002",
+            "19900329 202321 2 000",
+            "9922010520",
+            "",
             "Yuherlita Marneci, M.Pd.K",
             "P",
             "Kab. Katingan",
@@ -2231,6 +2786,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "112",
+            "6271010808890008",
+            "19890808 202321 1 000",
+            "",
+            "",
             "Agus Gelu Libur, S.Pd.K",
             "L",
             "Kab. Flores Timur",
@@ -2251,6 +2811,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "113",
+            "6271045112890001",
+            "19891211 202321 2 000",
+            "",
+            "",
             "Elisa Theresia, S.Th",
             "P",
             "Kab. Kapuas",
@@ -2271,6 +2836,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "114",
+            "6213014408930001",
+            "19930804 202321 2 000",
+            "",
+            "",
             "Hendayani, S.T",
             "P",
             "Kab. Barito Timur",
@@ -2291,6 +2861,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "115",
+            "6206024205930001",
+            "19960502 202321 2 000",
+            "",
+            "",
             "Loure Florentina, S.T",
             "P",
             "Palangka Raya",
@@ -2311,6 +2886,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "116",
+            "6271012703910005",
+            "19910327 202321 1 000",
+            "",
+            "",
             "Yan Patria Pandu Arista, S.Kom",
             "L",
             "Kab. Karanganyar",
@@ -2331,6 +2911,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "117",
+            "6213052112960002",
+            "19961221 202421 1 000",
+            "",
+            "",
             "Chrismas Debianto, S.Pd.",
             "L",
             "Banjarmasin",
@@ -2351,6 +2936,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "118",
+            "6271014912850006",
+            "19851209 202421 2 000",
+            "",
+            "",
             "Remi Anggela, S.Pd.K.",
             "P",
             "Palangka Raya",
@@ -2371,6 +2961,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "119",
+            "6271015504940001",
+            "19940415 202421 2 000",
+            "",
+            "",
             "Andika Silviana, S.T.",
             "P",
             "Palangka Raya",
@@ -2391,6 +2986,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "120",
+            "3201371711860002",
+            "19861117 202421 1 000",
+            "",
+            "",
             "Yafet Bintang Fajar Wailan Sinjal, S.Sn.",
             "L",
             "Jakarta Selatan",
@@ -2411,6 +3011,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "121",
+            "6271031603960010",
+            "19960316 202421 1 000",
+            "",
+            "",
             "Deniel Marcho Eli Katparu, S.T.",
             "L",
             "Gunung Mas",
@@ -2431,6 +3036,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "122",
+            "6271035411890006",
+            "19891114 202421 2 000",
+            "",
+            "",
             "Novita Erianti, S.T.",
             "P",
             "Palangka Raya",
@@ -2451,6 +3061,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "123",
+            "6211011808760001",
+            "19760818 202521 1 000",
+            "",
+            "",
             "Dr. Agustiman, M.Min",
             "L",
             "Kab. Kapuas",
@@ -2471,6 +3086,11 @@ class EmployeeSeeder extends Seeder
             "5183000"
         ],
         [
+            "124",
+            "6271032809790002",
+            "19911027 202521 1 000",
+            "",
+            "",
             "Antonius Prinando Saputra, S.Pd.K",
             "L",
             "Batapah",
@@ -2491,6 +3111,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "125",
+            "6205050106760005",
+            "19960918 202521 1 000",
+            "",
+            "",
             "Beni, A.Md, KA",
             "L",
             "Palangka Raya",
@@ -2511,6 +3136,11 @@ class EmployeeSeeder extends Seeder
             "2702000"
         ],
         [
+            "126",
+            "6271035906840004",
+            "19870227 202521 1 000",
+            "",
+            "",
             "Depi, S.Pd.K",
             "L",
             "Maliku",
@@ -2531,6 +3161,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "127",
+            "6210020101940002",
+            "19940101 202521 1 000",
+            "",
+            "",
             "Deprianto, S.Pd",
             "L",
             "Tewang Pajangan",
@@ -2551,6 +3186,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "128",
+            "6271012409710002",
+            "19850621 202521 1 000",
+            "",
+            "",
             "Erick Kristianson, S.Pd",
             "L",
             "Maliku Baru",
@@ -2571,6 +3211,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "129",
+            "6271014906950003",
+            "19830423 202521 1 000",
+            "",
+            "",
             "Frilli Sua Renro, S.Pd.K",
             "L",
             "Palingkau",
@@ -2591,6 +3236,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "130",
+            "6271034605900006",
+            "19710924 202521 1 000",
+            "",
+            "",
             "Hari Sonedi, S.Hut",
             "L",
             "Palangka Raya",
@@ -2611,6 +3261,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "131",
+            "6271035408940009",
+            "19850209 202521 1 000",
+            "",
+            "",
             "Hendro, S.Pd.K",
             "L",
             "Bahaur",
@@ -2631,6 +3286,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "132",
+            "6271034907910001",
+            "19950609 202521 2 000",
+            "",
+            "",
             "‌I Gusti Ayu Aldyth Alodia, S.Kom",
             "L",
             "Tumbang Samba",
@@ -2651,6 +3311,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "133",
+            "6271012710910004",
+            "19760601 202521 1 000",
+            "",
+            "",
             "‌Jonny Meyer, M.Th",
             "L",
             "Jakarta",
@@ -2671,6 +3336,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "134",
+            "6271012702870007",
+            "19790928 202521 1 000",
+            "",
+            "",
             "Dr. Kilat Kasanang, M.Th",
             "L",
             "Kab. Kapuas",
@@ -2691,6 +3361,11 @@ class EmployeeSeeder extends Seeder
             "2591500"
         ],
         [
+            "135",
+            "6203102106850003",
+            "19841022 202521 1 000",
+            "",
+            "",
             "Liven Stifanus, SP",
             "L",
             "Sampit",
@@ -2711,6 +3386,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "136",
+            "6210062304830001",
+            "19900506 202521 2 000",
+            "",
+            "",
             "Meila Frensisca, S.Kom",
             "P",
             "Palangka Raya",
@@ -2731,6 +3411,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "137",
+            "6211020902850001",
+            "19940814 202521 2 000",
+            "",
+            "",
             "Monica augina, S.E",
             "P",
             "Palangka Raya",
@@ -2751,6 +3436,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "138",
+            "6271032210840008",
+            "19820418 202521 1 000",
+            "",
+            "",
             "Sandro, S.Th",
             "L",
             "Mandomai",
@@ -2771,6 +3461,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "139",
+            "6271031804820005",
+            "19820917 202521 1 000",
+            "",
+            "",
             "Setiawan Yardi",
             "L",
             "Palangka Raya",
@@ -2791,6 +3486,11 @@ class EmployeeSeeder extends Seeder
             "2493000"
         ],
         [
+            "140",
+            "6271010308890001",
+            "19840619 202521 2 000",
+            "",
+            "",
             "Sinta Nurlela, M.Pd",
             "P",
             "Kab. Gunung Mas",
@@ -2811,6 +3511,11 @@ class EmployeeSeeder extends Seeder
             "1890500"
         ],
         [
+            "141",
+            "6271010308890001",
+            "19890803 202521 1 000",
+            "",
+            "",
             "Trikashu Awatnu, S.Kom",
             "L",
             "Kab. Gunung Mas",
@@ -2831,6 +3536,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "142",
+            "6271031809960004",
+            "19910709 202521 2 000",
+            "",
+            "",
             "Vinny Maria Yulianty, S.T",
             "P",
             "Kab. Kapuas",
@@ -2851,6 +3561,11 @@ class EmployeeSeeder extends Seeder
             "3319000"
         ],
         [
+            "143",
+            "6271031709820011",
+            "19850424 202521 1 000",
+            "",
+            "",
             "Vivin",
             "L",
             "Palangka Raya",
@@ -2871,6 +3586,11 @@ class EmployeeSeeder extends Seeder
             "2493000"
         ],
         [
+            "144",
+            "6271042404850001",
+            "19890112 202521 1 000",
+            "",
+            "",
             "Wardana Kussuma, S.Pd",
             "L",
             "Palangka Raya",
@@ -2891,6 +3611,11 @@ class EmployeeSeeder extends Seeder
             "2928000"
         ],
         [
+            "145",
+            "8101172603930006",
+            "19930326 202505 1 000",
+            "",
+            "",
             "‌Andre Marcel Toisuta, M.A",
             "L",
             "Ambon",
@@ -2911,6 +3636,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "146",
+            "3274040910960003",
+            "19961009 202505 1 000",
+            "",
+            "",
             "‌Andreas Setiawan, M. Th",
             "L",
             "Cirebon",
@@ -2931,6 +3661,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "147",
+            "6271014407920011",
+            "19920704 202505 2 000",
+            "",
+            "",
             "‌Dewani Dama Shinta, M.Si",
             "P",
             "Palangka Raya",
@@ -2951,6 +3686,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "148",
+            "1206012202990004",
+            "19990211 202505 1 000",
+            "",
+            "",
             "‌Yoges Mahendra Saragih, M.Pd",
             "L",
             "Kabanjahe",
@@ -2971,6 +3711,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "149",
+            "6206027003960002",
+            "19960330 202505 2 000",
+            "",
+            "",
             "‌Evelline Kristiani, S.Kom",
             "P",
             "Tumbang Manggo",
@@ -2991,6 +3736,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "150",
+            "1571070802920061",
+            "19920208 202505 1 000",
+            "",
+            "",
             "‌Hosea Paniroi Panjaitan, S.E",
             "L",
             "Jambi",
@@ -3011,6 +3761,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "151",
+            "1271216004920003",
+            "19920420 202505 2 000",
+            "",
+            "",
             "‌Imelda Apriani Barus, S.E",
             "P",
             "Sumbul",
@@ -3031,6 +3786,11 @@ class EmployeeSeeder extends Seeder
             "0"
         ],
         [
+            "152",
+            "6213076411940001",
+            "19941124 202505 2 000",
+            "",
+            "",
             "‌Vita Novita, S.E",
             "P",
             "Balikpapan",
