@@ -182,8 +182,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "8",
@@ -432,8 +432,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "18",
@@ -757,8 +757,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "31",
@@ -883,7 +883,7 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0"
+            "1890500"
         ],
         [
             "36",
@@ -907,8 +907,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "37",
@@ -958,7 +958,7 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0"
+            "1890500"
         ],
         [
             "39",
@@ -1007,8 +1007,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "41",
@@ -1083,7 +1083,7 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0"
+            "1890500"
         ],
         [
             "44",
@@ -1107,8 +1107,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "45",
@@ -1233,7 +1233,7 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0"
+            "1890500"
         ],
         [
             "50",
@@ -1258,7 +1258,7 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0"
+            "1890500"
         ],
         [
             "51",
@@ -2682,8 +2682,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "108",
@@ -2707,8 +2707,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "109",
@@ -2732,8 +2732,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "110",
@@ -2757,8 +2757,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "111",
@@ -2782,8 +2782,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "1890500"
         ],
         [
             "112",
@@ -2807,8 +2807,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "113",
@@ -2832,8 +2832,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "114",
@@ -2857,8 +2857,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "115",
@@ -2882,8 +2882,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "116",
@@ -2907,8 +2907,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "117",
@@ -2932,8 +2932,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "118",
@@ -2957,8 +2957,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "119",
@@ -2982,8 +2982,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "120",
@@ -3007,8 +3007,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "121",
@@ -3032,8 +3032,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "122",
@@ -3057,8 +3057,8 @@ class EmployeeSeeder extends Seeder
             "0",
             "0",
             "0",
-            "0",
-            "0"
+            "1",
+            "3319000"
         ],
         [
             "123",
